@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: cadetblue;
+    text-shadow: 2px 2px 2px chartreuse;
+}
+/* pseudo classes - syntax: selector:pseudo class{property:value} */
+.links:hover{
+    text-decoration: underline;
+    font-size:30px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(aqua,wheat);
+    color: white;
+}
+#im{
+    color: coral;
+}
+.profile{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Koulen', cursive;
+}
+#name{
+    font-size: 60px;
+    line-height: 1.2;
+    color:chocolate ;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: coral;
+}
+#bio{
+    padding: 50px;
+}
+.line{
+    height: 5px;
+    background-color: brown;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+
+}
+#writings a:hover{
+    color: darkblue;
+
+}
+.contact_1{
+    background-color: bisque;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: brown;
+}
